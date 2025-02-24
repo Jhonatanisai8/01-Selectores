@@ -34,3 +34,18 @@ img[src$="jpg"] {
 img[src^="arrozleche"] {
     width: 100%;
 }
+
+/* seletor adyacente */
+h1+p {
+    color: blue;
+}
+
+/* selector de hijo directo */
+p > i{
+    color: red;
+}
+
+/* selector de hermanos generales */
+h1 ~ p{
+    color: yellow;
+}
