@@ -7,6 +7,10 @@ li {
     color: green;
 }
 
+ul strong {
+    color: white;
+}
+
 .ingredientes-faltantes {
     color: red;
 }
