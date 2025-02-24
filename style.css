@@ -14,3 +14,19 @@ li {
 #ingredientes-secreto {
     color: blue;
 }
+
+/* selector de atributo */
+/* especifico */
+/* img [src="arrozleche.jpg"] {
+    width: 100%;
+} */
+
+/* termina en 
+img[src$="jpg"] {
+    width: 100%;
+}
+*/
+/* comienza con */
+img[src^="arrozleche"] {
+    width: 100%;
+}
